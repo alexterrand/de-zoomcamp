@@ -3,4 +3,10 @@ Q1:
 1/ install docker
 2/ run asked docker: `docker run -it --entrypoint bash python:3.12.8`
 3/ check pip version: `pip -V`
-Answer : pip 24.3.1
+Answer: pip 24.3.1
+
+Q2:
+Given the yaml file, we conclude that the hostame and port are:
+  - Hostname: Within the Docker network created by Docker Compose, the db service is accessible using its service name db as a hostname.
+  - Port: The PostgreSQL service inside the db container is running on port 5432.
+Answer: db:5432
