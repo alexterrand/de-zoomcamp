@@ -2,6 +2,7 @@
 To achieve this homework, I use Kestra with GCP
 ### Q1
 To see the size of yellow taxi data for the 2020 december's month, just run the flow for this specific dataset and month and look at the size of the csv on google cloud storage
+
 Answer: 128.3 MB
 
 ### Q2
@@ -47,8 +48,10 @@ variables:
   file: "green_tripdata_2020-{{ inputs.my_input }}.csv"
 ```
 
-Finally the total rows could be found in several place, for example in the details of the dataset in BigQuery  \n
-Answer Q3: 24,648,499 \n
+Finally the total rows could be found in several place, for example in the details of the dataset in BigQuery
+
+Answer Q3: 24,648,499
+
 Answer Q4: 1,734,051
 
 ### Q5
